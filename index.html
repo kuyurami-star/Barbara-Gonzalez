@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Profesional - U.E.C Eduardo Blanco</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <!-- Espacio para el Logo -->
+        <div class="logo-container">
+            <img src="Logo RGB (2).jpg" alt="Logo Eduardo Blanco" id="schoolLogo">
+        </div>
+        <h1>Perfil Profesional Estudiantil</h1>
+        <p>U.E. Colegio Eduardo Blanco</p>
+    </header>
+
+    <main class="container">
+        
+        <!-- Sección de Introducción Personal -->
+        <section class="card profile-main">
+            <h2 id="userName">Bárbara González</h2>
+            <p id="userIntro" class="intro-text">c</p>
+            <hr>
+            <p><strong>Meta Profesional:</strong> <span id="userGoal">
+
+        <!-- Análisis FODA (4 Tarjetas) -->
+        <section class="foda-grid">
+            <div class="card foda-item fortaleza">
+                <h3><i class="icon">F</i> Fortalezas</h3>
+                <ul id="listFortalezas"></ul>
+            </div>
+            <div class="card foda-item oportunidad">
+                <h3><i class="icon">O</i> Oportunidades</h3>
+                <ul id="listOportunidades"></ul>
+            </div>
+            <div class="card foda-item debilidad">
+                <h3><i class="icon">D</i> Debilidades</h3>
+                <ul id="listDebilidades"></ul>
+            </div>
+            <div class="card foda-item amenaza">
+                <h3><i class="icon">A</i> Amenazas</h3>
+                <ul id="listAmenazas"></ul>
+            </div>
+        </section>
+
+        <!-- Aspiraciones Universitarias -->
+        <section class="card university-section">
+            <h3></h3>
+            <div id="uniContainer" class="uni-grid">
+                <!-- Se llenará con JS -->
+            </div>
+        </section>
+        
+        <div class="actions">
+            <button id="btnActualizar">Cargar Perfil Profesional</button>
+        </div>
+    </main>
+
+    <script src="script.JS"></script>
+</body>
+</html>
